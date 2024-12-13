@@ -43,7 +43,7 @@ Perfect for businesses aiming to manage and grow their online store efficiently.
    ```  
 2. Navigate to the project directory:  
    ```bash  
-   cd Shopgrids-Ecommerce-Website-main  
+   cd MultiShop-Ecommerce-Website-main  
    ```  
 3. Install dependencies:  
    - PHP:  
