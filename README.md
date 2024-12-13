@@ -19,10 +19,10 @@ MultiShop is a feature-rich e-commerce solution designed for small businesses, o
 Features:  
 
 - Admin Panel: Add, update, delete, and manage products.  
-- Frontend**: User registration, profiles, and shopping cart.  
-- **SSLCommerz Integration**: Secure payment processing.  
-- **Real-time Updates**: Backend changes reflect instantly on the frontend.  
-- **Mobile-Friendly Design**: Optimized for all devices.  
+- Frontend: User registration, profiles, and shopping cart.  
+- SSLCommerz Integration: Secure payment processing.  
+- Real-time Updates: Backend changes reflect instantly on the frontend.  
+- Mobile-Friendly Design: Optimized for all devices.  
 
 Perfect for businesses aiming to manage and grow their online store efficiently.  
 
