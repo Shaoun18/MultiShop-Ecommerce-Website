@@ -82,8 +82,8 @@ Perfect for businesses aiming to manage and grow their online store efficiently.
 
 == Frequently Asked Questions ==  
 
-= Who can use Shopgrids? =  
-Shopgrids is perfect for small businesses, freelancers, and agencies looking for a user-friendly e-commerce platform.  
+= Who can use MultiShop? =  
+MultiShop is perfect for small businesses, freelancers, and agencies looking for a user-friendly e-commerce platform.  
 
 = Does it support custom themes? =  
 Yes, you can customize the frontend using Laravel Blade templates.  
