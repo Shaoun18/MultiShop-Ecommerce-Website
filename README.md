@@ -30,10 +30,10 @@ Perfect for businesses aiming to manage and grow their online store efficiently.
 
 ### Requirements  
 
-- **PHP 8.x**  
-- **Composer** (PHP dependency manager)  
-- **Node.js 16.x** or higher  
-- **MySQL** or a compatible database  
+- PHP 8.x
+- Composer (PHP dependency manager)  
+- Node.js 16.x or higher  
+- MySQL or a compatible database  
 
 ### Steps  
 
