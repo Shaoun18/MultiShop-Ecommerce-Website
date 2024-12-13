@@ -95,22 +95,20 @@ No, but it’s highly recommended for secure payment processing.
 
 1. **Dashboard**  
    ![DashBoard](public/web_images/Home.png)
-   ![DashBoard](public/web_images/middle.png)
-   ![DashBoard](public/web_images/middle1.png)
    ![DashBoard](public/web_images/footer.png)
 
-2**Admin Dashboard**  
-   ![Admin Panel](public/web_images/Admin_dash.png)  
+<!-- 2**Admin Dashboard**  
+   ![Admin Panel](public/web_images/Admin_dash.png)   -->
 
-3**Product Management**  
-   ![Product Page](public/web_images/Product.png)
+2**Product Management**  
+   ![Product Page](public/web_images/product.png)
 
-4. **Cart and Checkout**  
+<!-- 4. **Cart and Checkout**  
    ![Cart and Checkout](public/web_images/Cart_list.png)  
    ![Cart and Checkout](public/web_images/Checkout_page.png)
 
 4. **Order status**  
-   ![Order Status](public/web_images/order_status.png)
+   ![Order Status](public/web_images/order_status.png) -->
 
 == Changelog ==  
 
