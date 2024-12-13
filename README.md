@@ -1,66 +1,139 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+```
+=== MultiShop E-commerce Website ===  
+Contributors: Shaoun  
+Donate link: 
+Tags: e-commerce, online store, product management, SSLCommerz, cart, checkout  
+Requires at least: PHP 8.0, Node.js 16.0  
+Tested up to: Latest stable versions  
+Stable tag: 1.0.0  
+License: MIT  
+License URI: https://opensource.org/licenses/MIT  
 
-## About Laravel
+MultiShop E-commerce Website is a complete e-commerce platform that includes an admin panel for product management, a user-friendly frontend, and integration with SSLCommerz for secure payments.  
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+== Description ==  
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+MultiShop is a feature-rich e-commerce solution designed for small businesses, offering tools to manage products, handle customer accounts, and process secure online payments.  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Features:  
 
-## Learning Laravel
+- Admin Panel: Add, update, delete, and manage products.  
+- Frontend**: User registration, profiles, and shopping cart.  
+- **SSLCommerz Integration**: Secure payment processing.  
+- **Real-time Updates**: Backend changes reflect instantly on the frontend.  
+- **Mobile-Friendly Design**: Optimized for all devices.  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Perfect for businesses aiming to manage and grow their online store efficiently.  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+== Installation ==  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Requirements  
 
-## Laravel Sponsors
+- **PHP 8.x**  
+- **Composer** (PHP dependency manager)  
+- **Node.js 16.x** or higher  
+- **MySQL** or a compatible database  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Steps  
 
-### Premium Partners
+1. Clone the repository:  
+   ```bash  
+   git clone <repository_url>  
+   ```  
+2. Navigate to the project directory:  
+   ```bash  
+   cd Shopgrids-Ecommerce-Website-main  
+   ```  
+3. Install dependencies:  
+   - PHP:  
+     ```bash  
+     composer install  or composer update
+     ```  
+   - Node.js:  
+     ```bash  
+     npm install  
+     ```  
+4. Configure the environment:  
+   - Copy `.env.example` to `.env`:  
+     ```bash  
+     cp .env.example .env  
+     ```  
+   - Update `.env` with your database and SSLCommerz credentials.  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+5. Run database migrations:  
+   ```bash  
+   php artisan migrate  
+   ```  
+6. Artisan key generate:  
+   ```bash  
+   php artisan key:generate  
+   ```     
+7. Compile frontend assets:  
+   ```bash  
+   npm run dev  
+   ```  
 
-## Contributing
+8. Start the development server:  
+   ```bash  
+   php artisan serve  
+   ```  
+   Access the site at `http://127.0.0.1:8000`.  
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+== Frequently Asked Questions ==  
 
-## Code of Conduct
+= Who can use Shopgrids? =  
+Shopgrids is perfect for small businesses, freelancers, and agencies looking for a user-friendly e-commerce platform.  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+= Does it support custom themes? =  
+Yes, you can customize the frontend using Laravel Blade templates.  
 
-## Security Vulnerabilities
+= Is SSLCommerz integration mandatory? =  
+No, but it’s highly recommended for secure payment processing.  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+== Screenshots ==  
 
-## License
+1. **Dashboard**  
+   ![DashBoard](public/web_images/Home.png)
+   ![DashBoard](public/web_images/middle.png)
+   ![DashBoard](public/web_images/middle1.png)
+   ![DashBoard](public/web_images/footer.png)
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+2**Admin Dashboard**  
+   ![Admin Panel](public/web_images/Admin_dash.png)  
+
+3**Product Management**  
+   ![Product Page](public/web_images/Product.png)
+
+4. **Cart and Checkout**  
+   ![Cart and Checkout](public/web_images/Cart_list.png)  
+   ![Cart and Checkout](public/web_images/Checkout_page.png)
+
+4. **Order status**  
+   ![Order Status](public/web_images/order_status.png)
+
+== Changelog ==  
+
+= 1.0.0 =  
+- Initial release of Shopgrids.  
+- Admin panel for product management.  
+- Frontend for user accounts and shopping.  
+- Integrated SSLCommerz for payments.  
+
+== Roadmap ==  
+
+- Advanced analytics dashboard.  
+- Integration with other payment gateways.  
+- Multi-language support.  
+- Inventory management enhancements.  
+- Customizable email notifications.  
+
+== License ==  
+
+This project is licensed under the MIT License.  
+https://opensource.org/licenses/MIT  
+```  
+
+---
+
+Feel free to update placeholders like `<repository_url>` and `path_to_screenshots` with the actual links or paths. Let me know if you'd like further refinements!
