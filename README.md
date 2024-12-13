@@ -113,7 +113,7 @@ No, but it’s highly recommended for secure payment processing.
 == Changelog ==  
 
 = 1.0.0 =  
-- Initial release of Shopgrids.  
+- Initial release of MultiShop.  
 - Admin panel for product management.  
 - Frontend for user accounts and shopping.  
 - Integrated SSLCommerz for payments.  
